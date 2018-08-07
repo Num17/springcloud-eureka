@@ -61,6 +61,7 @@
     <modules>
         <module>eureka-server-node1</module>
         <module>eureka-server-node2</module>
+        <module>eureka-server-node3</module>
         <module>eureka-client</module>
         <module>eureka-client-ribbon</module>
     </modules>

@@ -10,15 +10,8 @@
         <module name="eureka-client-ribbon" />
         <module name="eureka-server-node1" />
         <module name="eureka-server-node2" />
+        <module name="eureka-server-node3" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="eureka-client" target="1.8" />
-      <module name="eureka-client-ribbon" target="1.8" />
-      <module name="eureka-server-node1" target="1.8" />
-      <module name="eureka-server-node2" target="1.8" />
-      <module name="eurekaservernode2" target="1.8" />
-      <module name="springcloud-eureka" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
