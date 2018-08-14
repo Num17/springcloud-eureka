@@ -14,6 +14,7 @@ import java.net.URI;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 @RestController
 public class UserController {
@@ -29,24 +30,36 @@ public class UserController {
 
 
     @GetMapping("/get-user")
-    public Map<String, List<ServiceInstance>> getUser() {
+    public String getUser() throws InterruptedException {
+
+        long time = new Random().nextInt(3000);
 
         Map<String, List<ServiceInstance>> serviceMap = new HashMap<>();
         List<ServiceInstance> serviceInstances = discoveryClient.getInstances(serviceInstance);
-
+        String serviceId = null;
         for (ServiceInstance instance : serviceInstances) {
             int port = instance.getPort();
             String host = instance.getHost();
             URI uri = instance.getUri();
 
-            String serviceId = instance.getServiceId();
+            serviceId = instance.getServiceId();
 
             logger.info("port: {},host:{},url:{},serviceId:{}", port, host, uri.toString(), serviceId);
         }
 
-        serviceMap.put(serviceInstance, serviceInstances);
+//        serviceMap.put(serviceInstance, serviceInstances);
 
-        return serviceMap;
+        Thread.sleep(time);
+
+        return serviceId;
     }
+
+//    public static void main(String[] args) {
+//
+//        for (int i = 0; i < 100; i++) {
+//            int i1 = new Random().nextInt(3000);
+//            System.out.println(i1);
+//        }
+//    }
 
 }

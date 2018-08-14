@@ -1,2 +1,4 @@
+com\kayakwise\eurekaclientribbon\service\impl\UserServiceImpl.class
 com\kayakwise\eurekaclientribbon\EurekaClientRibbonApplication.class
 com\kayakwise\eurekaclientribbon\controller\UserController.class
+com\kayakwise\eurekaclientribbon\service\UserService.class

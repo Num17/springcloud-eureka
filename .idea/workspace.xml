@@ -2,11 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af3fa796-0057-48f2-9ac9-e9e156da7c29" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/eureka-client-ribbon/problem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/ConcreateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/Recevier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/test/ObervableAndSubiscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-node1/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/target/classes/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/target/classes/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/target/classes/com/kayakwise/eurekaclientribbon/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/target/classes/com/kayakwise/eurekaclientribbon/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ribbon/target/test-classes/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ribbon/target/test-classes/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/kayakwise/eurekaclient/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/kayakwise/eurekaclient/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/classes/com/kayakwise/eurekaclient/EurekaClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/classes/com/kayakwise/eurekaclient/EurekaClientApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/classes/com/kayakwise/eurekaclient/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/classes/com/kayakwise/eurekaclient/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/eureka-client-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/eureka-client-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/eureka-client-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/eureka-client-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/test-classes/com/kayakwise/eurekaclient/EurekaClientApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/test-classes/com/kayakwise/eurekaclient/EurekaClientApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/test-classes/com/kayakwise/eurekaclient/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/test-classes/com/kayakwise/eurekaclient/Man.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/test-classes/com/kayakwise/eurekaclient/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/test-classes/com/kayakwise/eurekaclient/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server-node1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-node1/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server-node1/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-node1/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-node3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-node3/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-node3/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-node3/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server-node1/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,6 +46,7 @@
     <ignored path="$PROJECT_DIR$/eureka-server-node2/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server-node3/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,30 +59,12 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-server-node1/src/main/resources/application.properties">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ObervableAndSubiscriber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/test/ObervableAndSubiscriber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server-node2/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server-node3/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="133">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -59,6 +74,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,6 +83,8 @@
     <findStrings>
       <find>healthCheckUrlPath</find>
       <find>actuatorPrefix</find>
+      <find>Random</find>
+      <find>public Random</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,12 +99,28 @@
         <option value="$PROJECT_DIR$/eureka-server-node3/src/main/java/com/kayakwise/eurekaservernode3/EurekaServerNode3Application.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/eureka-server-node3/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplication.java" />
         <option value="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/config/RibbonConfig.java" />
-        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka-server-node2/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eureka-server-node1/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka-server-node3/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-server-node1/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/service/UserService.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/main/resources/banner.txt" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/kayakwise/eurekaclient/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/problem,md" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/problem.md" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/Recevier.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/Command.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/ConcreateCommand.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/Invoker.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplicationTests.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/test/ObervableAndSubiscriber.java" />
       </list>
     </option>
   </component>
@@ -127,9 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,10 +168,48 @@
               <item name="springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-eureka" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaclientribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,7 +217,19 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\programming\Git\own_repository\springcloud-eureka\eureka-server-node1\src\main\resources" />
+      <recent name="E:\programming\Git\own_repository\springcloud-eureka\eureka-client\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kayakwise.eurekaclientribbon.service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.EurekaServerNode1Run">
+  <component name="RunManager" selected="Maven.EurekaClientRun">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -181,6 +262,54 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="EurekaClientRibbonConsumerRun" type="MavenRunConfiguration" factoryName="Maven" singleton="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-client-ribbon" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="EurekaClientRun" type="MavenRunConfiguration" factoryName="Maven" singleton="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-client" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration name="EurekaServerNode1Run" type="MavenRunConfiguration" factoryName="Maven" singleton="true">
       <MavenSettings>
@@ -230,7 +359,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="EurekaServerNode3Run" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="EurekaServerNode3Run" type="MavenRunConfiguration" factoryName="Maven" singleton="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -254,9 +383,31 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="EurekaServerNode3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server-node3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kayakwise.eurekaservernode3.EurekaServerNode3Application" />
+    <configuration name="complete" type="MavenRunConfiguration" factoryName="Maven" singleton="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+                <option value="-DskipTests=true" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-client" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -281,10 +432,12 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Maven.EurekaClientRun" />
       <item itemvalue="Maven.EurekaServerNode1Run" />
+      <item itemvalue="Maven.complete" />
+      <item itemvalue="Maven.EurekaClientRibbonConsumerRun" />
       <item itemvalue="Maven.EurekaServerNode2Run" />
       <item itemvalue="Maven.EurekaServerNode3Run" />
-      <item itemvalue="Spring Boot.EurekaServerNode3Application" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -301,15 +454,26 @@
       <workItem from="1533655588214" duration="5000" />
       <workItem from="1533739444861" duration="3503000" />
       <workItem from="1533915066244" duration="1954000" />
+      <workItem from="1533972994311" duration="7242000" />
+      <workItem from="1534079411210" duration="3556000" />
+      <workItem from="1534086427309" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9300000" />
+    <option name="totallyTimeSpent" value="20107000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32960895" />
@@ -322,16 +486,16 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5217877" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5910615" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25963598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26927194" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -339,7 +503,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3083799" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3083799" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -352,6 +516,62 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/test/ObervableAndSubiscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/kayakwise/eurekaclient/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-node1/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-node2/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-node3/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/conn/scheme/PlainSocketFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -380,13 +600,6 @@
             <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -425,41 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/config/RibbonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="79" lean-forward="true" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -474,39 +656,298 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#1947#1948#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-node3/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server-node2/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-node3/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/config/RibbonConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="285">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/kayakwise/eurekaclient/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server-node1/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/SpringCloudApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-466">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Java/jdk1.8/jdk/src.zip!/java/time/Instant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="212" column="43" selection-start-line="212" selection-start-column="43" selection-end-line="212" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="78" lean-forward="true" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-node1/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Java/jdk1.8/jdk/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="200" column="12" lean-forward="true" selection-start-line="200" selection-start-column="12" selection-end-line="200" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/problem.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="23" selection-start-column="23" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/kayakwise/eurekaclient/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/main/java/com/kayakwise/eurekaclientribbon/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/Recevier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/command/ConcreateCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/EurekaClientRibbonApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ribbon/src/test/java/com/kayakwise/eurekaclientribbon/test/ObervableAndSubiscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>eureka-client-ribbon</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
